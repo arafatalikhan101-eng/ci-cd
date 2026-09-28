@@ -1,0 +1,14 @@
+name: My first CI pipline
+
+on:
+  push:
+
+
+jobs:
+  demo:
+    runs-on: windows-latest
+
+  steps:
+    - name: Print Message
+      run: echo "Hello tgis is my first pipline its running"
+      
